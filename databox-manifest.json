@@ -1,0 +1,37 @@
+{
+	"manifest-version": 1,
+
+	"name": "app-test-store",
+	"databox-type": "app",
+	"version": "0.1.0",
+
+	"description": "An app to test store performance.",
+	"author": "Chris Greenhalgh <chris.greenhalgh@nottingham.ac.uk>",
+	"license": "MIT",
+	"tags": [
+		"gloang"
+	],
+
+	"homepage": "https://github.com/cgreenhalgh/app-test-store",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cgreenhalgh/app-test-store"
+	},
+
+	"resource-requirements": {
+		"store": ["store-json","store-timeseries"]
+	},
+	
+	"packages": [
+		{
+			"name": "Test Store",
+			"purpose": "To test store performance",
+			"install": "required",
+			"risks": "None.",
+			"benefits": "See store performance.",
+			"datastores": [ ]
+		}
+	],
+
+	"allowed-combinations":[ ]
+}
